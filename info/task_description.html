@@ -1,22 +1,22 @@
 <!-- Describe task in general -->
 <p>
-    {{TIPO}}
+    <strong>Construção de Conhecimento:</strong> Explore novos conceitos e técnicas. Peça dicas e leia-as com atenção. Pesquise se necessário.
 </p>
 <h4>Enunciado</h4>
 
 <p>
-    {{ENUNCIADO}}
+    Joana, a gerente de uma pequena loja, precisa atualizar o estoque de produtos após um dia de vendas. Ela tem uma lista de compras feitas pelos clientes e deseja ajustar as quantidades de produtos no estoque. Crie uma função que receba um dicionário representando um estoque de produtos (chave: nome do produto, valor: quantidade em estoque) e uma lista de compras (produto, quantidade). A função deve atualizar as quantidades no estoque com base na lista de compras e retornar o dicionário atualizado.
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada: </strong> {{ENTRADA}}
+    <strong>Entrada: </strong> Um dicionário com produtos e suas quantidades; uma lista de tuplas, cada tupla contendo um produto e a quantidade comprada.
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> O dicionário atualizado com as novas quantidades.
 </p>
 
 
@@ -32,11 +32,14 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    atualizacao_valores({'maçã': 10, 'banana': 5}, [('maçã', 3), ('banana', 2)]) >> {'maçã': 7, 'banana': 3}
 </pre>
 {% endif %}
 </div>
 <h4>Habilidades</h4>
 <ul>
-    {{HABILIDADES}}
+    <li>Dicionários</li>
+<li>Controle de Fluxo e Iterações</li>
+<li>Lógicas de Condições e Decisões</li>
+<li>Acumulação de Valores</li>
 </ul>

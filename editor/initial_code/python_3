@@ -1,1 +1,12 @@
-{{CODIGO INICIAL}}
+def atualizacao_valores(estoque, compras):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(atualizacao_valores({'maçã': 10, 'banana': 5}, [('maçã', 3), ('banana', 2)]))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert atualizacao_valores({'maçã': 10, 'banana': 5}, [('maçã', 3), ('banana', 2)]) == {'maçã': 7, 'banana': 3}
+assert atualizacao_valores({'laranja': 5}, [('laranja', 2)]) == {'laranja': 3}
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
